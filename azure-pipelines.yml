@@ -10,8 +10,7 @@ trigger:
     buildConfiguration: 'Release'
   
   steps:
-
-  - script: apt install -y
+  - script: 'apt install -y'
     displayName: 'Run updates'
 
   - task: UseDotNet@2
