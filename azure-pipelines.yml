@@ -11,7 +11,7 @@ variables:
   
 steps:
 - script: 'apt install -y'
-   displayName: 'Run updates'
+  displayName: 'Run updates'
 
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK 3.1.300'
